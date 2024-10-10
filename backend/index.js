@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 5004; // Use PORT variable from .env if availab
 
 // Middleware
 app.use(cors({
-    origin: ["http://localhost:5003","http://localhost:5004","https://onrender.com","https://porfolio-hs0e.onrender.com"],
+    origin: ["http://localhost:5003","http://localhost:5004","https://onrender.com","https://porfolio-hs0e.onrender.com","https://fanciful-strudel-da2673.netlify.app"],
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE"],
   }));
